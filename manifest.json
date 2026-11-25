@@ -1,0 +1,25 @@
+{
+  "id": "./",
+  "name": "Azur – Mes finances",
+  "short_name": "Azur",
+  "description": "Soldes, enveloppes, dettes, actifs et assistant IA. Fonctionne hors ligne.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#050608",
+  "theme_color": "#050608",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Ajouter un revenu", "url": "./?action=income" },
+    { "name": "Nouvelle dette", "url": "./?action=debt" },
+    { "name": "Nouvel actif", "url": "./?action=asset" }
+  ]
+}
